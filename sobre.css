@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+/* Estilo para o header */
+header {
+  background-color: #031b2b;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  max-height: 100px;
+}
+
+.search {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.search input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #5c5b5b;
+  width: 70%;
+  margin-right: 10px;
+ 
+}
+
+.search button {
+  padding: 8px 20px;
+  border: none;
+  background-color: ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button {
+  padding: 8px 20px;
+  border: none;
+  background-color: #2ca19e;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+nav {
+    background-color: #2ca19e;
+}
+/* Estilizando a lista não ordenada (ul) */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centralizando os itens na barra de navegação */
+}
+/* Estilizando os itens da lista (li) */
+nav ul li {
+  display: inline; /* Fazendo com que os itens apareçam na mesma linha */
+}
+/* Estilizando os links */
+nav ul li a {
+ /* display: block; /* Fazendo com que os links ocupem todo o espaço disponível */
+  padding: 1em; /* Espaçamento interno */
+  text-decoration: none; /* Removendo sublinhado padrão dos links */
+  color: white; /* Cor do texto */
+}
+/* Estilizando os links quando passa o mouse */
+nav ul li a:hover {
+  background-color: #50959c; /* Cor de fundo ao passar o mouse */
+}
+  header {
+    background-color: hsl(0, 20%, 99%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+ 
+ p {
+    font-size: 12px;
+    line-height: 1.5em; /* Define a altura da linha para melhor legibilidade */
+    color:#333;
+    margin-bottom: 20px; /* Define a margem inferior para separar os parágrafos */
+    text-align: justify;
+    
+}
+     
+  .price {
+    font-weight: bold;
+    color: #0b0c0c;
+  }
+  
+  button {
+    background-color: #2ca19e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color:  #50959c;
+
+  }
+  
+  footer {
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding: 20px 0;
+  } 
+  
+  footer h6{
+    font-size: 14px;
+  }
+.sobre p{
+  
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }

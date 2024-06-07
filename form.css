@@ -1,0 +1,108 @@
+
+/* Estilos para o ícone do carrinho */
+.cart img {
+  height: 30px; /* Ajuste a altura conforme necessário */
+}
+nav {
+    background-color: #333;
+}
+/* Estilizando a lista não ordenada (ul) */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centralizando os itens na barra de navegação */
+}
+/* Estilizando os itens da lista (li) */
+nav ul li {
+  display: inline; /* Fazendo com que os itens apareçam na mesma linha */
+}
+/* Estilizando os links */
+nav ul li a {
+ /* display: block; /* Fazendo com que os links ocupem todo o espaço disponível */
+  padding: 1em; /* Espaçamento interno */
+  text-decoration: none; /* Removendo sublinhado padrão dos links */
+  color: white; /* Cor do texto */
+}
+/* Estilizando os links quando passa o mouse */
+nav ul li a:hover {
+  background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+  header {
+    background-color: hsl(0, 2%, 92%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+ 
+ p {
+    font-size: 12px;
+    line-height: 1.5em; /* Define a altura da linha para melhor legibilidade */
+    color:#333;
+    margin-bottom: 20px; /* Define a margem inferior para separar os parágrafos */
+    text-align: justify;
+    
+}
+
+ /*CSS FORMULÁRIO */
+ .container1 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 105%;
+    padding: 10px;
+    background-color: #474444;
+    color: #fff;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;;
+}
+
+button :disabled{
+    cursor: not-allowed;
+    background:#ccc;
+}
+
+.success{
+    color: greenyellow;
+
+}
+.error {
+    color: tomato;
+}

@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Estilo para o header */
+header {
+background-color: #031b2b;
+padding: 10px 0;
+}
+
+
+/*CSS FORMULÁRIO */
+
+.form-container{
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h2 {
+text-align: center;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+display: block;
+width: 105%;
+padding: 10px;
+background-color: #2ca19e;
+color: #fff;
+border: none;
+border-radius: 99px;
+cursor: pointer;
+}
+
+button:hover{
+     background-color: #50959c; /* Cor de fundo ao passar o mouse */
+  }
+   
+
+
+
+
+
+
+
